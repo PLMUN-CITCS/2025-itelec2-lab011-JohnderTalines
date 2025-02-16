@@ -5,9 +5,9 @@ try:
     age = int(age_str)
     membership = membership_str.strip().lower()
 
-        if age >= 18:
-    if membership == "yes":
-        print("Access granted.")
+    if age >= 18:
+        if membership == "yes":
+           print("Access granted.")
     else:
         print("Membership required for access.")
     else:
