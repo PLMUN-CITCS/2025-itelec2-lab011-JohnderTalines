@@ -1,6 +1,9 @@
 age_str = input("Enter your age: ")
+
 membership_str = input("Are you a member? (Yes/No): ")
+
 age = int(age_str)
+
 membership = membership_str.strip().lower()
 
 try:
