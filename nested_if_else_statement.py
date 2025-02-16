@@ -11,7 +11,7 @@ if age >= 18:
     else:
         print("Membership required for access.")
 else:
-    print("Access denied. Must be at least 18 years old.")
+        print("Access denied. Must be at least 18 years old.")
 
 except ValueError:
     print("Invalid age input. Please enter an integer.")
